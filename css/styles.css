@@ -1,0 +1,19 @@
+nav {
+    background-color:black;
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    margin: 20px;
+}
+
+footer{
+    background-color: black;
+    color:white;
+    text-align: center;
+}
