@@ -28,6 +28,10 @@ section {
   height: 100vh;
 }
 
+#invisible {
+  display: none;
+}
+
 nav {
   height: 50px;
   background-color: black;
@@ -47,7 +51,7 @@ nav .margin .links a {
 nav .margin .mobileNav {
   width: 40px;
   height: 35px;
-  display: flex;
+  display: none;
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
@@ -59,6 +63,18 @@ nav .margin .mobileNav .bar {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 750px) {
+  nav {
+    position: relative;
+  }
+  nav .margin .links {
+    display: none;
+    position: absolute;
+  }
+  nav .margin .mobileNav {
+    display: flex;
+  }
+}
 .home {
   background-color: indianred;
 }
