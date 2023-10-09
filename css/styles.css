@@ -1,32 +1,46 @@
-.margin {
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, body {
+ height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+ margin-bottom: 16px;
+}
+
+nav {
+    height:50px;
     background-color:black;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+.margin{
+    width: 75%;
+    margin: 0 auto;
+}
 a{
     text-decoration: none;
     color:white;
     margin: 20px;
 }
 
+section{
+    height: 100vh;
+}
 .home{
-    height: 100%;
-    margin: 10%;
-}
-
+    background-color:indianred;
+    }
+    
 .about{
-    height: 100%;
-    margin: 10%;
-}
+    background-color: cornflowerblue;}
 
 .products{
-    height: 100%;
-    margin: 10%;
+    background-color: rosybrown;
 }
 
 .contact{
-    height: 100%;
-    margin: 10%;
+    background-color: darkturquoise;
 }
