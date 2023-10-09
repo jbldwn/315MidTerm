@@ -39,7 +39,7 @@ nav .margin {
   align-items: center;
   justify-content: space-between;
 }
-nav .margin .links a a {
+nav .margin .links a {
   text-decoration: none;
   color: white;
   margin: 20px;
