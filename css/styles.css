@@ -11,22 +11,22 @@ a{
     margin: 20px;
 }
 
-#home{
+.home{
     height: 100%;
     margin: 10%;
 }
 
-#about{
+.about{
     height: 100%;
     margin: 10%;
 }
 
-#products{
+.products{
     height: 100%;
     margin: 10%;
 }
 
-#contact{
+.contact{
     height: 100%;
     margin: 10%;
 }
