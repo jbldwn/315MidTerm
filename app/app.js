@@ -10,11 +10,13 @@ function route() {
 }
 
 function initListeners() {
+    $(window).on("hashchange", route);
 
 }
 
 $(document).ready(function () {
     // window.on("hashchange", route)
+
     route();
     initListeners();
 });
