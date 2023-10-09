@@ -1,52 +1,5 @@
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
-html, body {
- height: 100%;
-}
-h1, h2, h3, h4, h5, h6, p {
- margin-bottom: 16px;
-}
 
-nav {
-    height:50px;
-    background-color:black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.margin{
-    width: 75%;
-    margin: 0 auto;
-}
-a{
-    text-decoration: none;
-    color:white;
-    margin: 20px;
-}
 
-section{
-    height: 100vh;
-}
-.home{
-    background-color:indianred;
-    }
-    
-.about{
-    background-color: cornflowerblue;}
 
-.products{
-    background-color: rosybrown;
-}
 
-.contact{
-    background-color: darkturquoise;
-}
 
-.mobileNav{
-    width: 50px;
-    height: 50px;
-    background-color: red;
-}
